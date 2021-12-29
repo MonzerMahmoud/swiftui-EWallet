@@ -18,9 +18,9 @@ struct MainTabBarView: View {
             case .income:
                 IncomeStatsView()
             case .notifications:
-                Text("Notification")
+                NotificationsView()
             case .settings:
-                Text("Settings")
+                SettingsView()
             }
             
             VStack {

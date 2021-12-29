@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F45BF67F277CB94700516517 /* NotificationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45BF67E277CB94700516517 /* NotificationCell.swift */; };
+		F45BF681277CC07C00516517 /* NotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45BF680277CC07C00516517 /* NotificationsView.swift */; };
+		F45BF683277CCAB000516517 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45BF682277CCAAF00516517 /* SettingsView.swift */; };
+		F45BF685277CD60500516517 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45BF684277CD60500516517 /* ProfileView.swift */; };
 		F45F335C277C0B970008D787 /* IncomeStatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45F335B277C0B970008D787 /* IncomeStatsView.swift */; };
 		F45F335E277C1EB20008D787 /* MainTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45F335D277C1EB20008D787 /* MainTabBarView.swift */; };
 		F45F3361277C1F620008D787 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45F3360277C1F620008D787 /* CustomTabBar.swift */; };
@@ -19,6 +23,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F45BF67E277CB94700516517 /* NotificationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCell.swift; sourceTree = "<group>"; };
+		F45BF680277CC07C00516517 /* NotificationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsView.swift; sourceTree = "<group>"; };
+		F45BF682277CCAAF00516517 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		F45BF684277CD60500516517 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		F45F335B277C0B970008D787 /* IncomeStatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncomeStatsView.swift; sourceTree = "<group>"; };
 		F45F335D277C1EB20008D787 /* MainTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarView.swift; sourceTree = "<group>"; };
 		F45F3360277C1F620008D787 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
@@ -48,6 +56,9 @@
 				F479BE6F277BCC7F00E12FED /* HomeView.swift */,
 				F45F335B277C0B970008D787 /* IncomeStatsView.swift */,
 				F45F335D277C1EB20008D787 /* MainTabBarView.swift */,
+				F45BF680277CC07C00516517 /* NotificationsView.swift */,
+				F45BF682277CCAAF00516517 /* SettingsView.swift */,
+				F45BF684277CD60500516517 /* ProfileView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -56,6 +67,7 @@
 			isa = PBXGroup;
 			children = (
 				F45F3360277C1F620008D787 /* CustomTabBar.swift */,
+				F45BF67E277CB94700516517 /* NotificationCell.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -176,13 +188,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F45BF67F277CB94700516517 /* NotificationCell.swift in Sources */,
 				F45F335E277C1EB20008D787 /* MainTabBarView.swift in Sources */,
 				F45F3364277C1FF90008D787 /* ViewRouter.swift in Sources */,
 				F479BE70277BCC7F00E12FED /* HomeView.swift in Sources */,
 				F45F335C277C0B970008D787 /* IncomeStatsView.swift in Sources */,
+				F45BF683277CCAB000516517 /* SettingsView.swift in Sources */,
 				F479BE64277BCC1800E12FED /* ContentView.swift in Sources */,
 				F45F3361277C1F620008D787 /* CustomTabBar.swift in Sources */,
 				F479BE62277BCC1800E12FED /* E_WalletApp.swift in Sources */,
+				F45BF685277CD60500516517 /* ProfileView.swift in Sources */,
+				F45BF681277CC07C00516517 /* NotificationsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
