@@ -11,6 +11,7 @@
 		F479BE64277BCC1800E12FED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F479BE63277BCC1800E12FED /* ContentView.swift */; };
 		F479BE66277BCC1E00E12FED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F479BE65277BCC1E00E12FED /* Assets.xcassets */; };
 		F479BE69277BCC1E00E12FED /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F479BE68277BCC1E00E12FED /* Preview Assets.xcassets */; };
+		F479BE70277BCC7F00E12FED /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F479BE6F277BCC7F00E12FED /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		F479BE63277BCC1800E12FED /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F479BE65277BCC1E00E12FED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F479BE68277BCC1E00E12FED /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F479BE6F277BCC7F00E12FED /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +34,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F45F335A277C09E90008D787 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F479BE6F277BCC7F00E12FED /* HomeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		F479BE55277BCC1800E12FED = {
 			isa = PBXGroup;
 			children = (
@@ -51,6 +61,7 @@
 		F479BE60277BCC1800E12FED /* E-Wallet */ = {
 			isa = PBXGroup;
 			children = (
+				F45F335A277C09E90008D787 /* Views */,
 				F479BE61277BCC1800E12FED /* E_WalletApp.swift */,
 				F479BE63277BCC1800E12FED /* ContentView.swift */,
 				F479BE65277BCC1E00E12FED /* Assets.xcassets */,
@@ -137,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F479BE70277BCC7F00E12FED /* HomeView.swift in Sources */,
 				F479BE64277BCC1800E12FED /* ContentView.swift in Sources */,
 				F479BE62277BCC1800E12FED /* E_WalletApp.swift in Sources */,
 			);
