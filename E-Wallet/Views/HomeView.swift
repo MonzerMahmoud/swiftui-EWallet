@@ -53,7 +53,7 @@ fileprivate struct Header: View {
     }
 }
 
-struct BalanceView: View {
+fileprivate struct BalanceView: View {
     var body: some View {
         ZStack {
             
@@ -84,7 +84,7 @@ struct BalanceView: View {
                         .foregroundColor(.white)
                     .font(.title3)
                     
-                    Text("Mbok")
+                    Text("Syber")
                         .foregroundColor(.white)
                         .font(.title2)
                         .fontWeight(.bold)
@@ -154,14 +154,14 @@ struct TransactionCell: View {
                     .fontWeight(.thin)
                 
             }
-            .frame(maxHeight: .infinity)
+            //.frame(maxHeight: .infinity)
             
             Spacer()
             
             Text(amount)
                 .font(.title3)
                 .fontWeight(.medium)
-                .padding()
+                //.padding()
         }
         
     }
@@ -181,9 +181,8 @@ struct LastTransactions: View {
                 Text("View All")
                     .foregroundColor(Color(red: 0.529, green: 0.242, blue: 0.998))
             }
-            //.padding(.horizontal, 10)
             
-            VStack {
+            VStack(spacing: 0) {
                 TransactionCell()
                 TransactionCell(image: "paypal-icon", title: "Paypal", subtitle: "Tax", amount: "10$")
                 TransactionCell(image: "paylater-icon", title: "Paylater", subtitle: "Buy Item", amount: "2$")
