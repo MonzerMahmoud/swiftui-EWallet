@@ -11,10 +11,31 @@
 		F45BF681277CC07C00516517 /* NotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45BF680277CC07C00516517 /* NotificationsView.swift */; };
 		F45BF683277CCAB000516517 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45BF682277CCAAF00516517 /* SettingsView.swift */; };
 		F45BF685277CD60500516517 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45BF684277CD60500516517 /* ProfileView.swift */; };
+		F45BF687277D116500516517 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45BF686277D116500516517 /* LoginView.swift */; };
+		F45BF689277D324B00516517 /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45BF688277D324B00516517 /* SignupView.swift */; };
+		F45BF68B277D339800516517 /* AddCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45BF68A277D339800516517 /* AddCardView.swift */; };
 		F45F335C277C0B970008D787 /* IncomeStatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45F335B277C0B970008D787 /* IncomeStatsView.swift */; };
 		F45F335E277C1EB20008D787 /* MainTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45F335D277C1EB20008D787 /* MainTabBarView.swift */; };
 		F45F3361277C1F620008D787 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45F3360277C1F620008D787 /* CustomTabBar.swift */; };
 		F45F3364277C1FF90008D787 /* ViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45F3363277C1FF90008D787 /* ViewRouter.swift */; };
+		F46CF7222837F6E200BAB895 /* AppDelgate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46CF7212837F6E200BAB895 /* AppDelgate.swift */; };
+		F46CF7252837F74C00BAB895 /* AppDelgate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46CF7212837F6E200BAB895 /* AppDelgate.swift */; };
+		F46CF7262837F74C00BAB895 /* NotificationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45BF67E277CB94700516517 /* NotificationCell.swift */; };
+		F46CF7272837F74C00BAB895 /* MainTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45F335D277C1EB20008D787 /* MainTabBarView.swift */; };
+		F46CF7282837F74C00BAB895 /* ViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45F3363277C1FF90008D787 /* ViewRouter.swift */; };
+		F46CF7292837F74C00BAB895 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F479BE6F277BCC7F00E12FED /* HomeView.swift */; };
+		F46CF72A2837F74C00BAB895 /* IncomeStatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45F335B277C0B970008D787 /* IncomeStatsView.swift */; };
+		F46CF72B2837F74C00BAB895 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45BF682277CCAAF00516517 /* SettingsView.swift */; };
+		F46CF72C2837F74C00BAB895 /* AddCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45BF68A277D339800516517 /* AddCardView.swift */; };
+		F46CF72D2837F74C00BAB895 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45BF686277D116500516517 /* LoginView.swift */; };
+		F46CF72E2837F74C00BAB895 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F479BE63277BCC1800E12FED /* ContentView.swift */; };
+		F46CF72F2837F74C00BAB895 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45F3360277C1F620008D787 /* CustomTabBar.swift */; };
+		F46CF7302837F74C00BAB895 /* E_WalletApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F479BE61277BCC1800E12FED /* E_WalletApp.swift */; };
+		F46CF7312837F74C00BAB895 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45BF684277CD60500516517 /* ProfileView.swift */; };
+		F46CF7322837F74C00BAB895 /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45BF688277D324B00516517 /* SignupView.swift */; };
+		F46CF7332837F74C00BAB895 /* NotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F45BF680277CC07C00516517 /* NotificationsView.swift */; };
+		F46CF7362837F74C00BAB895 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F479BE68277BCC1E00E12FED /* Preview Assets.xcassets */; };
+		F46CF7372837F74C00BAB895 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F479BE65277BCC1E00E12FED /* Assets.xcassets */; };
 		F479BE62277BCC1800E12FED /* E_WalletApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F479BE61277BCC1800E12FED /* E_WalletApp.swift */; };
 		F479BE64277BCC1800E12FED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F479BE63277BCC1800E12FED /* ContentView.swift */; };
 		F479BE66277BCC1E00E12FED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F479BE65277BCC1E00E12FED /* Assets.xcassets */; };
@@ -27,10 +48,19 @@
 		F45BF680277CC07C00516517 /* NotificationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsView.swift; sourceTree = "<group>"; };
 		F45BF682277CCAAF00516517 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		F45BF684277CD60500516517 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		F45BF686277D116500516517 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		F45BF688277D324B00516517 /* SignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
+		F45BF68A277D339800516517 /* AddCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCardView.swift; sourceTree = "<group>"; };
 		F45F335B277C0B970008D787 /* IncomeStatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncomeStatsView.swift; sourceTree = "<group>"; };
 		F45F335D277C1EB20008D787 /* MainTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarView.swift; sourceTree = "<group>"; };
 		F45F3360277C1F620008D787 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
 		F45F3363277C1FF90008D787 /* ViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewRouter.swift; sourceTree = "<group>"; };
+		F46CF7212837F6E200BAB895 /* AppDelgate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelgate.swift; sourceTree = "<group>"; };
+		F46CF73B2837F74C00BAB895 /* E-Wallet-dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "E-Wallet-dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F46CF73D2837FFBC00BAB895 /* Dev.xconfig.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Dev.xconfig.xcconfig; sourceTree = "<group>"; };
+		F46CF73E283800B400BAB895 /* Prod.xonfig.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Prod.xonfig.xcconfig; sourceTree = "<group>"; };
+		F46CF73F2838081800BAB895 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		F46CF74028380A9800BAB895 /* E-Wallet-dev-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "E-Wallet-dev-Info.plist"; sourceTree = "<group>"; };
 		F479BE5E277BCC1800E12FED /* E-Wallet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "E-Wallet.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F479BE61277BCC1800E12FED /* E_WalletApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = E_WalletApp.swift; sourceTree = "<group>"; };
 		F479BE63277BCC1800E12FED /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -40,6 +70,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		F46CF7342837F74C00BAB895 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F479BE5B277BCC1800E12FED /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -59,6 +96,9 @@
 				F45BF680277CC07C00516517 /* NotificationsView.swift */,
 				F45BF682277CCAAF00516517 /* SettingsView.swift */,
 				F45BF684277CD60500516517 /* ProfileView.swift */,
+				F45BF686277D116500516517 /* LoginView.swift */,
+				F45BF688277D324B00516517 /* SignupView.swift */,
+				F45BF68A277D339800516517 /* AddCardView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -80,9 +120,19 @@
 			path = Managers;
 			sourceTree = "<group>";
 		};
+		F46CF73C2837FEED00BAB895 /* Config Files */ = {
+			isa = PBXGroup;
+			children = (
+				F46CF73D2837FFBC00BAB895 /* Dev.xconfig.xcconfig */,
+				F46CF73E283800B400BAB895 /* Prod.xonfig.xcconfig */,
+			);
+			path = "Config Files";
+			sourceTree = "<group>";
+		};
 		F479BE55277BCC1800E12FED = {
 			isa = PBXGroup;
 			children = (
+				F46CF74028380A9800BAB895 /* E-Wallet-dev-Info.plist */,
 				F479BE60277BCC1800E12FED /* E-Wallet */,
 				F479BE5F277BCC1800E12FED /* Products */,
 			);
@@ -92,6 +142,7 @@
 			isa = PBXGroup;
 			children = (
 				F479BE5E277BCC1800E12FED /* E-Wallet.app */,
+				F46CF73B2837F74C00BAB895 /* E-Wallet-dev.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -99,6 +150,9 @@
 		F479BE60277BCC1800E12FED /* E-Wallet */ = {
 			isa = PBXGroup;
 			children = (
+				F46CF73F2838081800BAB895 /* Info.plist */,
+				F46CF73C2837FEED00BAB895 /* Config Files */,
+				F46CF7212837F6E200BAB895 /* AppDelgate.swift */,
 				F45F3362277C1FCC0008D787 /* Managers */,
 				F45F335F277C1F4D0008D787 /* Components */,
 				F45F335A277C09E90008D787 /* Views */,
@@ -121,6 +175,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		F46CF7232837F74C00BAB895 /* E-Wallet-dev */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F46CF7382837F74C00BAB895 /* Build configuration list for PBXNativeTarget "E-Wallet-dev" */;
+			buildPhases = (
+				F46CF7242837F74C00BAB895 /* Sources */,
+				F46CF7342837F74C00BAB895 /* Frameworks */,
+				F46CF7352837F74C00BAB895 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "E-Wallet-dev";
+			productName = "E-Wallet";
+			productReference = F46CF73B2837F74C00BAB895 /* E-Wallet-dev.app */;
+			productType = "com.apple.product-type.application";
+		};
 		F479BE5D277BCC1800E12FED /* E-Wallet */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F479BE6C277BCC1E00E12FED /* Build configuration list for PBXNativeTarget "E-Wallet" */;
@@ -167,11 +238,21 @@
 			projectRoot = "";
 			targets = (
 				F479BE5D277BCC1800E12FED /* E-Wallet */,
+				F46CF7232837F74C00BAB895 /* E-Wallet-dev */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		F46CF7352837F74C00BAB895 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F46CF7362837F74C00BAB895 /* Preview Assets.xcassets in Resources */,
+				F46CF7372837F74C00BAB895 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F479BE5C277BCC1800E12FED /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -184,20 +265,46 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		F46CF7242837F74C00BAB895 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F46CF7252837F74C00BAB895 /* AppDelgate.swift in Sources */,
+				F46CF7262837F74C00BAB895 /* NotificationCell.swift in Sources */,
+				F46CF7272837F74C00BAB895 /* MainTabBarView.swift in Sources */,
+				F46CF7282837F74C00BAB895 /* ViewRouter.swift in Sources */,
+				F46CF7292837F74C00BAB895 /* HomeView.swift in Sources */,
+				F46CF72A2837F74C00BAB895 /* IncomeStatsView.swift in Sources */,
+				F46CF72B2837F74C00BAB895 /* SettingsView.swift in Sources */,
+				F46CF72C2837F74C00BAB895 /* AddCardView.swift in Sources */,
+				F46CF72D2837F74C00BAB895 /* LoginView.swift in Sources */,
+				F46CF72E2837F74C00BAB895 /* ContentView.swift in Sources */,
+				F46CF72F2837F74C00BAB895 /* CustomTabBar.swift in Sources */,
+				F46CF7302837F74C00BAB895 /* E_WalletApp.swift in Sources */,
+				F46CF7312837F74C00BAB895 /* ProfileView.swift in Sources */,
+				F46CF7322837F74C00BAB895 /* SignupView.swift in Sources */,
+				F46CF7332837F74C00BAB895 /* NotificationsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F479BE5A277BCC1800E12FED /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F46CF7222837F6E200BAB895 /* AppDelgate.swift in Sources */,
 				F45BF67F277CB94700516517 /* NotificationCell.swift in Sources */,
 				F45F335E277C1EB20008D787 /* MainTabBarView.swift in Sources */,
 				F45F3364277C1FF90008D787 /* ViewRouter.swift in Sources */,
 				F479BE70277BCC7F00E12FED /* HomeView.swift in Sources */,
 				F45F335C277C0B970008D787 /* IncomeStatsView.swift in Sources */,
 				F45BF683277CCAB000516517 /* SettingsView.swift in Sources */,
+				F45BF68B277D339800516517 /* AddCardView.swift in Sources */,
+				F45BF687277D116500516517 /* LoginView.swift in Sources */,
 				F479BE64277BCC1800E12FED /* ContentView.swift in Sources */,
 				F45F3361277C1F620008D787 /* CustomTabBar.swift in Sources */,
 				F479BE62277BCC1800E12FED /* E_WalletApp.swift in Sources */,
 				F45BF685277CD60500516517 /* ProfileView.swift in Sources */,
+				F45BF689277D324B00516517 /* SignupView.swift in Sources */,
 				F45BF681277CC07C00516517 /* NotificationsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -205,6 +312,72 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		F46CF7392837F74C00BAB895 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F46CF73D2837FFBC00BAB895 /* Dev.xconfig.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"E-Wallet/Preview Content\"";
+				DEVELOPMENT_TEAM = 6RKV2Z3GTT;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "E-Wallet-dev-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "E-Wallet Dev";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				"OTHER_SWIFT_FLAGS[arch=*]" = "-DDEV";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.monzer.E-Wallet";
+				PRODUCT_NAME = "E-Wallet-dev";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F46CF73A2837F74C00BAB895 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F46CF73D2837FFBC00BAB895 /* Dev.xconfig.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"E-Wallet/Preview Content\"";
+				DEVELOPMENT_TEAM = 6RKV2Z3GTT;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "E-Wallet-dev-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "E-Wallet Dev";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				"OTHER_SWIFT_FLAGS[arch=*]" = "-DDEV";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.monzer.E-Wallet";
+				PRODUCT_NAME = "E-Wallet-dev";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		F479BE6A277BCC1E00E12FED /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -256,7 +429,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -311,7 +484,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -323,15 +496,18 @@
 		};
 		F479BE6D277BCC1E00E12FED /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F46CF73E283800B400BAB895 /* Prod.xonfig.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"E-Wallet/Preview Content\"";
 				DEVELOPMENT_TEAM = 6RKV2Z3GTT;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "E-Wallet/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "$(APP_NAME)";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -341,7 +517,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.2.3;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.monzer.E-Wallet";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -352,15 +528,18 @@
 		};
 		F479BE6E277BCC1E00E12FED /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F46CF73E283800B400BAB895 /* Prod.xonfig.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_ASSET_PATHS = "\"E-Wallet/Preview Content\"";
 				DEVELOPMENT_TEAM = 6RKV2Z3GTT;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "E-Wallet/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "$(APP_NAME)";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -370,7 +549,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.2.3;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.monzer.E-Wallet";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -382,6 +561,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		F46CF7382837F74C00BAB895 /* Build configuration list for PBXNativeTarget "E-Wallet-dev" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F46CF7392837F74C00BAB895 /* Debug */,
+				F46CF73A2837F74C00BAB895 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		F479BE59277BCC1800E12FED /* Build configuration list for PBXProject "E-Wallet" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

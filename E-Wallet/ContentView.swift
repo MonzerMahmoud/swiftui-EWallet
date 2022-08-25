@@ -8,14 +8,16 @@
 import SwiftUI
 
 struct ContentView: View {
-    @StateObject var viewRouter: ViewRouter
+    //@StateObject var viewRouter: ViewRouter
     var body: some View {
-       MainTabBarView(viewRouter: viewRouter)
+        NavigationView {
+            LoginView()
+        }
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView( viewRouter: ViewRouter())
+        ContentView()
     }
 }

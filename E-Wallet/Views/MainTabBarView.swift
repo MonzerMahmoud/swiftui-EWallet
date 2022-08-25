@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct MainTabBarView: View {
-    @StateObject var viewRouter: ViewRouter
+    @StateObject var viewRouter = ViewRouter()
     var body: some View {
         ZStack {
             
@@ -29,6 +29,7 @@ struct MainTabBarView: View {
                 CustomTabBar(viewRouter: viewRouter)
             }
         }
+        .navigationBarHidden(true)
     }
 }
 
